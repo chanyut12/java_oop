@@ -21,7 +21,7 @@ public class ElectricityBill {
 
         if (units <= 150) {
             return units * RATE_1;
-        } else if (units <= 400) {
+        } else if (150 < units <= 400) {
             return units * RATE_2;
         } else {
             return units * RATE_3;
