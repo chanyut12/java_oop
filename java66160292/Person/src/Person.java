@@ -12,7 +12,7 @@ public class Person
 		firstName = first;
 		lastName = last;
 		
-		if ( years < 0 )
+		if ( years > 0 )
 			age = years;
 	} 
 
