@@ -23,6 +23,9 @@ public class Circle extends GeometricObject {
     public double getArea(){
         return radius * radius * Math.PI ;
     }
+    public double getPerimeter(){
+        return radius * 2 * Math.PI ; 
+    }
     @Override
     public void print(){
         super.print();
@@ -33,5 +36,6 @@ public class Circle extends GeometricObject {
     public static void main(String[] args) {
         Circle c1 = new Circle();
         System.out.println(c1.getArea());
+        System.out.println(c1.getPerimeter());
     }
 }
