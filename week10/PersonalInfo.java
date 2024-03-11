@@ -10,8 +10,8 @@ public class PersonalInfo {
     }
 
     public PersonalInfo(String first , String last , int month , int day , int year , int ID){
-        this.name = new Per();
-        this.bDay = new Date();
+        this.name = new Per(first,last);
+        this.bDay = new Date(month,day,year);
         this.personID = ID ;
     }
 
