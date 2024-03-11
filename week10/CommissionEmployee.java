@@ -19,8 +19,16 @@ public CommissionEmployee( String first, String last, String ssn,
       lastName = last; 
       socialSecurityNumber = ssn; 
       setGrossSales(sales);       
-setCommissionRate(rate); 
+      setCommissionRate(rate); 
    } 
+   public void setAll(String first, String last, String ssn,  
+      double sales, double rate){
+      firstName = first; 
+      lastName = last; 
+      socialSecurityNumber = ssn; 
+      setGrossSales(sales);       
+      setCommissionRate(rate); 
+      }
    public void setFirstName( String first ) 
    { 
       firstName = first; 
